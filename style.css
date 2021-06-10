@@ -96,10 +96,31 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
     background-size:cover;
   background-repeat:no-repeat;
 }
+.price-box__img.logo{
+  background-image: url("svg/logo.svg");
+}
+.price-box__img.books{
+  background-image: url("svg/knowledge.svg");
+}
+.price-box__img.package{
+  background-image: url("svg/delivery.svg");
+}
+.price-box__img.thumb{
+  background-image: url("svg/thumbnails.svg");
+}
+.price-box__img.brochure{
+  background-image: url("svg/brochure.svg");
+}
+.price-box__img.social{
+  background-image: url("svg/bullhorn.svg");
+}
 
 
 
-.price-box--purple .price-box__img{
+
+
+
+/* .price-box--purple .price-box__img{
   background-image: url("https://image.ibb.co/iGjEKG/1.png");
 
 }
@@ -113,7 +134,7 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 .price-box--blue .price-box__img{
   background-image: url("https://preview.ibb.co/nDRpmw/3.png");
 
-}
+} */
 
 .price-box__title{
   font-size:22px;
