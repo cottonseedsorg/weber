@@ -114,7 +114,15 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 .price-box__img.social{
   background-image: url("svg/bullhorn.svg");
 }
-
+.price-box__img.static{
+  background-image: url("svg/static.svg");
+}
+.price-box__img.dynamic{
+  background-image: url("svg/dynamic.svg");
+}
+.price-box__img.ecommerce{
+  background-image: url("svg/ecommerce.svg");
+}
 
 
 
