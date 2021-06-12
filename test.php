@@ -122,7 +122,7 @@ $url="http://ip-api.com/json/";
                 <div class="header__logo">
                     <img class="header__img" src="weber.svg" />
                     <h1 class="header__title">
-                        Weber<span class="header__light"> Websites</span>
+                        Weber<span class="header__light"> <?php echo $countryCode; ?></span>
                     </h1>
                 </div>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
