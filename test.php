@@ -1,5 +1,7 @@
 <?php 
-$url="http://ip-api.com/json/";
+require('functions.php');
+$iiip = get_client_ip();
+$url="http://ip-api.com/json/$iiip";
     $ch=curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
