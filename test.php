@@ -1,9 +1,9 @@
 <?php 
 require('functions.php');
 $iiip = get_client_ip();
-$url="http://ip-api.com/json/$iiip";
+$url="http://ip-api.com/json/".$iiip."/";
 echo $url;
-die();
+
     $ch=curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -24,7 +24,7 @@ die();
         $as='';
         $ip='';
         
-    if($result['status']='success'){
+    if($result['status']=='success'){
         $country=$result['country'];
         $countryCode=$result['countryCode'];
         $region=$result['region'];
@@ -38,6 +38,8 @@ die();
         $org=$result['org'];
         $as=$result['as'];
         $ip=$result['query'];
+    }else{
+        $countryCode='error';
     }
     if ($countryCode=='IN'){
       $india='yes';

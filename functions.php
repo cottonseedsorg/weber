@@ -23,7 +23,7 @@ getenv('HTTP_X_FORWARDED')?:
 getenv('HTTP_FORWARDED_FOR')?:
 getenv('HTTP_FORWARDED')?:
 getenv('REMOTE_ADDR');
-
+$ip = trim($ip);
 return $ip;
 }
 ?>
