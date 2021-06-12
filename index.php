@@ -66,7 +66,7 @@ $url="http://ip-api.com/json/".$rrp;
     <title>Weber Websites</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description"
-        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers" />
+        content="Weber Websites by CottonSeeds . Most premium and best website builder ever , with dedicated developers . We make premium and quality websites for you at very low cost with a dedicated developer for you." />
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="Weber Websites" />
     <!-- website name -->
@@ -75,13 +75,15 @@ $url="http://ip-api.com/json/".$rrp;
     <meta property="og:title" content="Weber Websites" />
     <!-- title shown in the actual shared post -->
     <meta property="og:description"
-        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers" />
+        content="Weber Websites by CottonSeeds . Most premium and best website builder ever , with dedicated developers . We make premium and quality websites for you at very low cost with a dedicated developer for you." />
     <!-- description shown in the actual shared post -->
     <meta property="og:image" content="weber-og.jpg" />
     <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://weber.cottonseeds.org/" />
     <!-- where do you want your post to link to -->
     <meta property="og:type" content="website" />
+
+    <meta name="keywords" content="Weber, weber graphics, weber websites, websites builders, graphic designers" />
     <!-- og end -->
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png" />

@@ -78,7 +78,7 @@ $url="http://ip-api.com/json/".$rrp;
     <title>Weber Graphics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers" />
+        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers . We make awesome graphic designs, like logos, posts, thumbnails, vector arts..etc with a dedicated designer's for you." />
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="Weber Graphics" />
     <!-- website name -->
@@ -87,13 +87,16 @@ $url="http://ip-api.com/json/".$rrp;
     <meta property="og:title" content="Weber Graphics" />
     <!-- title shown in the actual shared post -->
     <meta property="og:description"
-        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers" />
+        content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers . We make awesome graphic designs, like logos, posts, thumbnails, vector arts..etc with a dedicated designer's for you." />
     <!-- description shown in the actual shared post -->
     <meta property="og:image" content="weber-og.jpg" />
     <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://weber.cottonseeds.org/" />
     <!-- where do you want your post to link to -->
     <meta property="og:type" content="website" />
+
+    <meta name="keywords"
+        content="Weber, weber graphics, weber websites, websites builders, graphic designers , logos, arts" />
     <!-- og end -->
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -586,39 +589,41 @@ $url="http://ip-api.com/json/".$rrp;
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact" class="form" name="type">
+                        <form id="contact" class="form" method="POST" action="send">
                             <div class="form-group">
-                                <select class="form__field form__select">
+                                <select class="form__field form__select" name="type">
                                     <option selected value>Choose topic*</option>
-                                    <option value=1>Pricing</option>
-                                    <option value=2>Success Stories</option>
+                                    <option value="1">Pricing</option>
+                                    <option value="2">Success Stories</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <div class="form__field--half">
-                                    <input type="text" placeholder="Name*" name="name" class="form__field form__text">
+                                    <input type="text" placeholder="Name*" name="name" class="form__field form__text" />
                                 </div>
                                 <div class="form__field--half">
                                     <input type="text" placeholder="Surname" name="surname"
-                                        class="form__field form__text">
+                                        class="form__field form__text" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <div class="form__field--half">
                                     <input type="text" placeholder="Email address*" name="email"
-                                        class="form__field form__text">
+                                        class="form__field form__text" />
                                 </div>
                                 <div class="form__field--half">
                                     <input type="text" placeholder="Phone number" name="contact"
-                                        class="form__field form__text">
+                                        class="form__field form__text" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <textarea type="text" placeholder="Your messsage*" name="message"
                                     class="form__field form__textarea"></textarea>
-                                <button class="btn btn--up btn--width" type="submit">Submit</button>
+                                <button class="btn btn--up btn--width" type="submit">
+                                    Submit
+                                </button>
                             </div>
                         </form>
                     </div>
