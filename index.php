@@ -1,40 +1,41 @@
 <?php 
-$url="http://ip-api.com/json/";
-    $ch=curl_init();
-    curl_setopt($ch,CURLOPT_URL,$url);
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-    $result=curl_exec($ch);
-    curl_close($ch);
-    $result=json_decode($result, true);
-    $country='';
-        $countryCode='';
-        $region='';
-        $regionName='';
-        $city='';
-        $zip='';
-        $lat='';
-        $lon='';
-        $timezone='';
-        $isp='';
-        $org='';
-        $as='';
-        $ip='';
+// $url="http://ip-api.com/json/";
+//     $ch=curl_init();
+//     curl_setopt($ch,CURLOPT_URL,$url);
+//     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+//     $result=curl_exec($ch);
+//     curl_close($ch);
+//     $result=json_decode($result, true);
+//     $country='';
+//         $countryCode='';
+//         $region='';
+//         $regionName='';
+//         $city='';
+//         $zip='';
+//         $lat='';
+//         $lon='';
+//         $timezone='';
+//         $isp='';
+//         $org='';
+//         $as='';
+//         $ip='';
         
-    if($result['status']='success'){
-        $country=$result['country'];
-        $countryCode=$result['countryCode'];
-        $region=$result['region'];
-        $regionName=$result['regionName'];
-        $city=$result['city'];
-        $zip=$result['zip'];
-        $lat=$result['lat'];
-        $lon=$result['lon'];
-        $timezone=$result['timezone'];
-        $isp=$result['isp'];
-        $org=$result['org'];
-        $as=$result['as'];
-        $ip=$result['query'];
-    }
+//     if($result['status']='success'){
+//         $country=$result['country'];
+//         $countryCode=$result['countryCode'];
+//         $region=$result['region'];
+//         $regionName=$result['regionName'];
+//         $city=$result['city'];
+//         $zip=$result['zip'];
+//         $lat=$result['lat'];
+//         $lon=$result['lon'];
+//         $timezone=$result['timezone'];
+//         $isp=$result['isp'];
+//         $org=$result['org'];
+//         $as=$result['as'];
+//         $ip=$result['query'];
+//     }
+$countryCode = 'IN';
     if ($countryCode=='IN'){
       $india='yes';
       $tag = 'Rs.';
