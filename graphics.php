@@ -135,6 +135,16 @@ $url="http://ip-api.com/json/".$rrp;
         color: #6f79ff;
     }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199370291-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-199370291-1');
+</script>
 </head>
 
 <body>
@@ -145,6 +155,7 @@ $url="http://ip-api.com/json/".$rrp;
         <link rel="shortcut icon" type="image/x-icon" href="weber.png" />
         <meta name="theme-color" content="#1885ed">
         <title>Weber Graphics</title>
+        
     </head>
 
     <body>
