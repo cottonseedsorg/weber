@@ -104,7 +104,7 @@ $countryCode = 'IN';
     <meta name="theme-color" content="#3a9fff" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style.css?v=4" />
+    <link rel="stylesheet" href="./style.css?v=5" />
 </head>
 
 <body>
