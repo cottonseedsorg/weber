@@ -131,7 +131,7 @@ $url="http://ip-api.com/json/".$rrp;
     <header class="header">
         <div class="container header__container">
             <div class="header__logo">
-                <img class="header__img" src="weber.svg" />
+                <img class="header__img" alt='weber websites logo' src="weber.svg" />
                 <h1 class="header__title">
                     Weber<span class="header__light"> Websites</span>
                 </h1>
@@ -182,7 +182,8 @@ $url="http://ip-api.com/json/".$rrp;
                             <a class="btn btn--width" href="#pricing">Pricing</a>
                             <a class="btn btn--revert btn--width" href="graphics">Graphics</a>
                         </div>
-                        <img class="site__img" src="https://image.ibb.co/c7grYb/image3015.png" />
+                        <img class="site__img" alt='weber laptop website'
+                            src="https://image.ibb.co/c7grYb/image3015.png" />
                     </div>
                 </div>
             </div>
@@ -359,11 +360,11 @@ $url="http://ip-api.com/json/".$rrp;
 
                         <!-- Left and right controls -->
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <img class="carousel-control__img"
+                            <img class="carousel-control__img" alt='prev'
                                 src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjQ5NCAzMS40OTQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjQ5NCAzMS40OTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ij4KPHBhdGggZD0iTTEwLjI3Myw1LjAwOWMwLjQ0NC0wLjQ0NCwxLjE0My0wLjQ0NCwxLjU4NywwYzAuNDI5LDAuNDI5LDAuNDI5LDEuMTQzLDAsMS41NzFsLTguMDQ3LDguMDQ3aDI2LjU1NCAgYzAuNjE5LDAsMS4xMjcsMC40OTIsMS4xMjcsMS4xMTFjMCwwLjYxOS0wLjUwOCwxLjEyNy0xLjEyNywxLjEyN0gzLjgxM2w4LjA0Nyw4LjAzMmMwLjQyOSwwLjQ0NCwwLjQyOSwxLjE1OSwwLDEuNTg3ICBjLTAuNDQ0LDAuNDQ0LTEuMTQzLDAuNDQ0LTEuNTg3LDBsLTkuOTUyLTkuOTUyYy0wLjQyOS0wLjQyOS0wLjQyOS0xLjE0MywwLTEuNTcxTDEwLjI3Myw1LjAwOXoiIGZpbGw9IiM2Zjc5ZmYiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
                         </a>
                         <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <img class="carousel-control__img"
+                            <img class="carousel-control__img" alt='next'
                                 src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjQ5IDMxLjQ5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMS40OSAzMS40OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiPgo8cGF0aCBkPSJNMjEuMjA1LDUuMDA3Yy0wLjQyOS0wLjQ0NC0xLjE0My0wLjQ0NC0xLjU4NywwYy0wLjQyOSwwLjQyOS0wLjQyOSwxLjE0MywwLDEuNTcxbDguMDQ3LDguMDQ3SDEuMTExICBDMC40OTIsMTQuNjI2LDAsMTUuMTE4LDAsMTUuNzM3YzAsMC42MTksMC40OTIsMS4xMjcsMS4xMTEsMS4xMjdoMjYuNTU0bC04LjA0Nyw4LjAzMmMtMC40MjksMC40NDQtMC40MjksMS4xNTksMCwxLjU4NyAgYzAuNDQ0LDAuNDQ0LDEuMTU5LDAuNDQ0LDEuNTg3LDBsOS45NTItOS45NTJjMC40NDQtMC40MjksMC40NDQtMS4xNDMsMC0xLjU3MUwyMS4yMDUsNS4wMDd6IiBmaWxsPSIjNmY3OWZmIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
                         </a>
                     </div>
@@ -495,7 +496,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-1"></div>
                 <div class="col-md-4">
                     <div class="contacts">
-                        <a href="#" class="contacts__link"><img src="weber.svg" />
+                        <a href="#" class="contacts__link"><img alt='weber logo' src="weber.svg" />
                             <h1 class="contacts_title-ag">
                                 Weber<span class="contacts--light"> Websites</span>
                             </h1>
@@ -509,8 +510,9 @@ $url="http://ip-api.com/json/".$rrp;
           </p> -->
                         <p class="contacts__info">
                             m.
-                            <a href="mailto:reachweber@cottonseeds.org"
-                                class="contacts__info-link">ReachWeber@cottonseeds.org</a>
+                            <a class="contacts__info-link"
+                                href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#101;&#97;&#99;&#104;&#119;&#101;&#98;&#101;&#114;&#64;&#99;&#111;&#116;&#116;&#111;&#110;&#115;&#101;&#101;&#100;&#115;&#46;&#111;&#114;&#103;">&#82;&#101;&#97;&#99;&#104;&#87;&#101;&#98;&#101;&#114;&#64;&#99;&#111;&#116;&#116;&#111;&#110;&#115;&#101;&#101;&#100;&#115;&#46;&#111;&#114;&#103;</a>
+
                         </p>
                     </div>
                 </div>
@@ -559,7 +561,7 @@ $url="http://ip-api.com/json/".$rrp;
     </div>
 
     <div class="sect sect--violet">
-        <img src="https://image.ibb.co/fWyVtb/path3762.png" class="career-img" />
+        <img alt='weber career' src="https://image.ibb.co/fWyVtb/path3762.png" class="career-img" />
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -580,7 +582,7 @@ $url="http://ip-api.com/json/".$rrp;
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-xs-6">
-                    <img class="footer__img" src="weber.svg" />
+                    <img class="footer__img" alt='weber logo' src="weber.svg" />
                     <h1 class="footer__title">
                         Weber<span class="footer__light"> Websites</span>
                     </h1>
@@ -588,7 +590,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-10 col-xs-6">
                     <div class="footer__social">
                         <a href="https://twitter.com/cottonseedsorg" class="footer__social-l">
-                            <img
+                            <img alt='twitter'
                                 src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNjEyLDExNi4yNThjLTIyLjUyNSw5Ljk4MS00Ni42OTQsMTYuNzUtNzIuMDg4LDE5Ljc3MmMyNS45MjktMTUuNTI3LDQ1Ljc3Ny00MC4xNTUsNTUuMTg0LTY5LjQxMSAgICBjLTI0LjMyMiwxNC4zNzktNTEuMTY5LDI0LjgyLTc5Ljc3NSwzMC40OGMtMjIuOTA3LTI0LjQzNy01NS40OS0zOS42NTgtOTEuNjMtMzkuNjU4Yy02OS4zMzQsMC0xMjUuNTUxLDU2LjIxNy0xMjUuNTUxLDEyNS41MTMgICAgYzAsOS44MjgsMS4xMDksMTkuNDI3LDMuMjUxLDI4LjYwNkMxOTcuMDY1LDIwNi4zMiwxMDQuNTU2LDE1Ni4zMzcsNDIuNjQxLDgwLjM4NmMtMTAuODIzLDE4LjUxLTE2Ljk4LDQwLjA3OC0xNi45OCw2My4xMDEgICAgYzAsNDMuNTU5LDIyLjE4MSw4MS45OTMsNTUuODM1LDEwNC40NzljLTIwLjU3NS0wLjY4OC0zOS45MjYtNi4zNDgtNTYuODY3LTE1Ljc1NnYxLjU2OGMwLDYwLjgwNiw0My4yOTEsMTExLjU1NCwxMDAuNjkzLDEyMy4xMDQgICAgYy0xMC41MTcsMi44My0yMS42MDcsNC4zOTgtMzMuMDgsNC4zOThjLTguMTA3LDAtMTUuOTQ3LTAuODAzLTIzLjYzNC0yLjMzM2MxNS45ODUsNDkuOTA3LDYyLjMzNiw4Ni4xOTksMTE3LjI1Myw4Ny4xOTQgICAgYy00Mi45NDcsMzMuNjU0LTk3LjA5OSw1My42NTUtMTU1LjkxNiw1My42NTVjLTEwLjEzNCwwLTIwLjExNi0wLjYxMi0yOS45NDQtMS43MjFjNTUuNTY3LDM1LjY4MSwxMjEuNTM2LDU2LjQ4NSwxOTIuNDM4LDU2LjQ4NSAgICBjMjMwLjk0OCwwLDM1Ny4xODgtMTkxLjI5MSwzNTcuMTg4LTM1Ny4xODhsLTAuNDIxLTE2LjI1M0M1NzMuODcyLDE2My41MjYsNTk1LjIxMSwxNDEuNDIyLDYxMiwxMTYuMjU4eiIgZmlsbD0iIzcyOTNiMyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
                         </a>
                         <!-- <a href="#" class="footer__social-l">
@@ -598,7 +600,7 @@ $url="http://ip-api.com/json/".$rrp;
                 </a> -->
 
                         <a href="https://www.instagram.com/cottonseedsorg/"" class=" footer__social-l">
-                            <img src="svg/instagram.svg" class="insta" />
+                            <img alt='instagram' src="svg/instagram.svg" class="insta" />
                         </a>
 
                         <!-- <a href="" class="footer__social-l">
