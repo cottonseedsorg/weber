@@ -1,5 +1,8 @@
 RewriteEngine on
 
+RewriteCond %{HTTP_HOST} ^www\.weber.cottonseeds\.org$
+RewriteRule ^/?$ "http\:\/\/weber.cottonseeds\.org\/" [R=301,L]
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 

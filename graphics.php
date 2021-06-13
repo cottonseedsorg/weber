@@ -213,9 +213,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--purple ">
                     <div class="price-box__wrap">
                         <div class="price-box__img logo"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Logo Design
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Creative Logo's
                         </p>
@@ -236,9 +236,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--violet ">
                     <div class="price-box__wrap">
                         <div class="price-box__img brochure"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Brochure Design
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Attractive Brochure
                         </p>
@@ -260,9 +260,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--blue ">
                     <div class="price-box__wrap">
                         <div class="price-box__img package"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Packaging Design
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Modern Packaging Design's
                         </p>
@@ -285,9 +285,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--purple ">
                     <div class="price-box__wrap">
                         <div class="price-box__img books"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Publication Designers for books
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Cover And Layout Design
                         </p>
@@ -312,9 +312,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--violet ">
                     <div class="price-box__wrap">
                         <div class="price-box__img thumb"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Youtube Thumbnail Design
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Informative Thumbnail's
                         </p>
@@ -337,9 +337,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4 col-sm-4 price-box price-box--blue ">
                     <div class="price-box__wrap">
                         <div class="price-box__img social"></div>
-                        <h1 class="price-box__title">
+                        <h3 class="price-box__title">
                             Social media post design
-                        </h1>
+                        </h3>
                         <p class="price-box__people">
                             Instagram , Facebook ..etc
                         </p>
@@ -578,7 +578,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4">
                     <div class="contacts">
                         <a href="#" class="contacts__link"><img src="weber-gd.svg">
-                            <h1 class="contacts_title-ag">Weber<span class="contacts--light"> Graphics</span></h1>
+                            <h5 class="contacts_title-ag">Weber<span class="contacts--light"> Graphics</span></h5>
                         </a>
                         <p class="contacts__address">
                             Cottonseeds.org<br>
@@ -643,7 +643,7 @@ $url="http://ip-api.com/json/".$rrp;
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="career_title">Oh! Your have digged our website in search for the Websites ?</h1>
-                    <h1 class="career_sub">We will pleased to have you onboard! Check Weber Websites.</h1>
+                    <h5 class="career_sub">We will pleased to have you onboard! Check Weber Websites.</h5>
                     <a href="index" class="btn btn--white btn--width">websites</a>
                 </div>
             </div>

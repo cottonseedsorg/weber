@@ -83,7 +83,8 @@ $url="http://ip-api.com/json/".$rrp;
     <!-- where do you want your post to link to -->
     <meta property="og:type" content="website" />
 
-    <meta name="keywords" content="Weber, weber graphics, weber websites, websites builders, graphic designers" />
+    <meta name="keywords"
+        content="Weber, cottonseeds, websites , features , weber graphics, weber websites, websites builders, graphic designers" />
     <!-- og end -->
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png" />
@@ -197,18 +198,20 @@ $url="http://ip-api.com/json/".$rrp;
                 <h2 class="row__sub">What fits your business the best?</h2>
             </div>
             <div class="row row--center row--margin">
-                <div class="col-md-4 col-sm-4 price-box price-box--purple">
+                <div itemscope itemtype="https://schema.org/Product"
+                    class="col-md-4 col-sm-4 price-box price-box--purple">
                     <div class="price-box__wrap">
                         <div class="price-box__img static"></div>
-                        <h1 class="price-box__title">Static</h1>
-                        <p class="price-box__people">Simple Front-End website</p>
-                        <h2 class="price-box__discount">
-                            <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
+                        <h3 itemprop="name" class="price-box__title">Static</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <h2 class="price-box__discount" itemprop="price" content="<?php echo $static; ?>">
+                            <span itemprop="priceCurrency"
+                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
                                 class="price-box__discount--light">/lifetime</span>
                         </h2>
                         <h3 class="price-box__price"><?php echo $tag; ?><?php echo $static_original; ?></h3>
                         <p class="price-box__feat">Features</p>
-                        <ul class="price-box__list">
+                        <ul itemprop="features" class="price-box__list">
                             <li class="price-box__list-el">Dedicated Developer</li>
                             <li class="price-box__list-el">GIT Access</li>
                             <li class="price-box__list-el">Free Hosting</li>
@@ -222,18 +225,20 @@ $url="http://ip-api.com/json/".$rrp;
                     </div>
                 </div>
                 <!-- second -->
-                <div class="col-md-4 col-sm-4 price-box price-box--violet">
+                <div itemscope itemtype="https://schema.org/Product"
+                    class="col-md-4 col-sm-4 price-box price-box--violet">
                     <div class="price-box__wrap">
                         <div class="price-box__img dynamic"></div>
-                        <h1 class="price-box__title">Dynamic</h1>
-                        <p class="price-box__people">Grest Dynamic Website</p>
-                        <h2 class="price-box__discount">
-                            <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
+                        <h3 itemprop="name" class="price-box__title">Dynamic</h3>
+                        <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
+                        <h2 class="price-box__discount" itemprop="price">
+                            <span itemprop="priceCurrency"
+                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
                                 class="price-box__discount--light">/lifetime</span>
                         </h2>
                         <h3 class="price-box__price"><?php echo $tag; ?><?php echo $dynamic_original; ?></h3>
                         <p class="price-box__feat">Features</p>
-                        <ul class="price-box__list">
+                        <ul itemprop="features" class="price-box__list">
                             <li class="price-box__list-el">Dedicated Developer</li>
                             <li class="price-box__list-el">GIT Access</li>
                             <li class="price-box__list-el">Backend Technologies</li>
@@ -251,18 +256,20 @@ $url="http://ip-api.com/json/".$rrp;
                 </div>
 
                 <!-- terzo -->
-                <div class="col-md-4 col-sm-4 price-box price-box--blue">
+                <div itemscope itemtype="https://schema.org/Product"
+                    class="col-md-4 col-sm-4 price-box price-box--blue">
                     <div class="price-box__wrap">
                         <div class="price-box__img ecommerce"></div>
-                        <h1 class="price-box__title">E-commerce</h1>
-                        <p class="price-box__people">Powerful E-commerce Website</p>
-                        <h2 class="price-box__discount">
-                            <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
+                        <h3 itemprop="name" class="price-box__title">E-commerce</h3>
+                        <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
+                        <h2 class="price-box__discount" itemprop="price">
+                            <span itemprop="priceCurrency"
+                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
                                 class="price-box__discount--light">/lifetime</span>
                         </h2>
                         <h3 class="price-box__price"><?php echo $tag; ?><?php echo $ecom_original; ?></h3>
                         <p class="price-box__feat">Features</p>
-                        <ul class="price-box__list">
+                        <ul itemprop="features" class="price-box__list">
                             <li class="price-box__list-el">Dedicated Developer</li>
                             <li class="price-box__list-el">GIT Access</li>
                             <li class="price-box__list-el">Backend Technologies</li>
@@ -497,9 +504,9 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-4">
                     <div class="contacts">
                         <a href="#" class="contacts__link"><img alt='weber logo' src="weber.svg" />
-                            <h1 class="contacts_title-ag">
+                            <p class="contacts_title-ag">
                                 Weber<span class="contacts--light"> Websites</span>
-                            </h1>
+                            </p>
                         </a>
                         <p class="contacts__address">
                             Cottonseeds.org<br />
@@ -569,9 +576,9 @@ $url="http://ip-api.com/json/".$rrp;
                         Oh! Your have digged our website in search for the Graphic
                         Designing ?
                     </h1>
-                    <h1 class="career_sub">
+                    <p class="career_sub">
                         We will pleased to have you onboard! Check Weber Graphics .
-                    </h1>
+                    </p>
                     <a href="graphics" class="btn btn--white btn--width">Graphics</a>
                 </div>
             </div>
