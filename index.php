@@ -241,139 +241,137 @@ $url="http://ip-api.com/json/".$rrp;
                                     <link itemprop="availability" href="https://schema.org/InStock" />
                                 </div>
                             </div>
-                            <p class="price-box__feat">Features</p>
-                            <ul itemprop="features" class="price-box__list">
-                                <li class="price-box__list-el">Dedicated Developer</li>
-                                <li class="price-box__list-el">GIT Access</li>
-                                <li class="price-box__list-el">Free Hosting</li>
-                                <li class="price-box__list-el">
-                                    Free Cottonseeds.org Sub Domain
-                                </li>
-                            </ul>
-                            <div class="price-box__btn">
-                                <a class="btn btn--purple btn--width" href="#contact">Start now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- second -->
-                <div itemscope itemtype="https://schema.org/Product"
-                    class="col-md-4 col-sm-4 price-box price-box--violet">
-                    <div class="price-box__wrap">
-                        <svg class="price-box__img dynamic" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></svg>
-                        <h3 itemprop="name" class="price-box__title">Dynamic</h3>
-                        <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
-                        <span>
-                            <h2 class="price-box__discount">
-                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price"
-                                    content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
-                                    class="price-box__discount--light">/lifetime</span>
-                            </h2>
-                            <h3 itemprop="highPrice" class="price-box__price">
-                                <span itemprop="priceCurrency">
-                                    <?php echo $tag; ?></span><?php echo $dynamic_original; ?>
-                            </h3>
-                        </span>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" itemscope
-                                    itemtype="https://schema.org/AggregateRating">
-                                    <span class="fa fa-star" data-rating="1"></span>
-                                    <span class="fa fa-star" data-rating="2"></span>
-                                    <span class="fa fa-star" data-rating="3"></span>
-                                    <span class="fa fa-star" data-rating="4"></span>
-                                    <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        content='5' value="5">
-                                    <span itemprop="reviewCount" content='89'></span>
-                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-                                        <span itemprop="name" content='weber'></span>
-                                    </span>
-                                    <link itemprop="availability" href="https://schema.org/InStock" />
-                                </div>
-                            </div>
                         </div>
                         <p class="price-box__feat">Features</p>
                         <ul itemprop="features" class="price-box__list">
                             <li class="price-box__list-el">Dedicated Developer</li>
                             <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Backend Technologies</li>
+                            <li class="price-box__list-el">Free Hosting</li>
                             <li class="price-box__list-el">
                                 Free Cottonseeds.org Sub Domain
                             </li>
-                            <li class="price-box__list-el">
-                                Free Maintanance for 6 months
-                            </li>
                         </ul>
                         <div class="price-box__btn">
-                            <a class="btn btn--violet btn--width" href="#contact">Start now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- terzo -->
-                <div itemscope itemtype="https://schema.org/Product"
-                    class="col-md-4 col-sm-4 price-box price-box--blue">
-                    <div class="price-box__wrap">
-                        <svg class="price-box__img ecommerce" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></svg>
-                        <h3 itemprop="name" class="price-box__title">E-commerce</h3>
-                        <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
-                        <span>
-                            <h2 class="price-box__discount">
-                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
-                                    class="price-box__discount--light">/lifetime</span>
-                            </h2>
-                            <h3 iitemprop="highPrice" class="price-box__price">
-                                <span itemprop="priceCurrency"> <?php echo $tag; ?>
-                                </span><?php echo $ecom_original; ?>
-                            </h3>
-                        </span>
-                        <!-- rating- -->
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" itemscope
-                                    itemtype="https://schema.org/AggregateRating">
-                                    <span class="fa fa-star" data-rating="1"></span>
-                                    <span class="fa fa-star" data-rating="2"></span>
-                                    <span class="fa fa-star" data-rating="3"></span>
-                                    <span class="fa fa-star" data-rating="4"></span>
-                                    <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        content='5' value="5">
-                                    <span itemprop="reviewCount" content='89'></span>
-                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-                                        <span itemprop="name" content='weber'></span>
-                                    </span>
-                                    <link itemprop="availability" href="https://schema.org/InStock" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- rating end  -->
-                        <p class="price-box__feat">Features</p>
-                        <ul itemprop="features" class="price-box__list">
-                            <li class="price-box__list-el">Dedicated Developer</li>
-                            <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Backend Technologies</li>
-                            <li class="price-box__list-el">
-                                Free Cottonseeds.org Sub Domain
-                            </li>
-                            <li class="price-box__list-el">
-                                Free Maintanance for 6 months
-                            </li>
-                            <li class="price-box__list-el">Admin Panel</li>
-                            <li class="price-box__list-el">What else you need ?</li>
-                        </ul>
-                        <div class="price-box__btn">
-                            <a class="btn btn--blue btn--width" href="#contact">Start now</a>
+                            <a class="btn btn--purple btn--width" href="#contact">Start now</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- second -->
+            <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--violet">
+                <div class="price-box__wrap">
+                    <svg class="price-box__img dynamic" itemprop="image" itemscope
+                        itemtype="http://schema.org/image"></svg>
+                    <h3 itemprop="name" class="price-box__title">Dynamic</h3>
+                    <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
+                    <span>
+                        <h2 class="price-box__discount">
+                            <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                itemprop="price" content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
+                                class="price-box__discount--light">/lifetime</span>
+                        </h2>
+                        <h3 itemprop="highPrice" class="price-box__price">
+                            <span itemprop="priceCurrency">
+                                <?php echo $tag; ?></span><?php echo $dynamic_original; ?>
+                        </h3>
+                    </span>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="star-rating" itemprop="aggregateRating" itemscope
+                                itemtype="https://schema.org/AggregateRating">
+                                <span class="fa fa-star" data-rating="1"></span>
+                                <span class="fa fa-star" data-rating="2"></span>
+                                <span class="fa fa-star" data-rating="3"></span>
+                                <span class="fa fa-star" data-rating="4"></span>
+                                <span class="fa fa-star" data-rating="5"></span>
+                                <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
+                                    content='5' value="5">
+                                <span itemprop="reviewCount" content='89'></span>
+                                <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+                                    <span itemprop="name" content='weber'></span>
+                                </span>
+                                <link itemprop="availability" href="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price-box__feat">Features</p>
+                    <ul itemprop="features" class="price-box__list">
+                        <li class="price-box__list-el">Dedicated Developer</li>
+                        <li class="price-box__list-el">GIT Access</li>
+                        <li class="price-box__list-el">Backend Technologies</li>
+                        <li class="price-box__list-el">
+                            Free Cottonseeds.org Sub Domain
+                        </li>
+                        <li class="price-box__list-el">
+                            Free Maintanance for 6 months
+                        </li>
+                    </ul>
+                    <div class="price-box__btn">
+                        <a class="btn btn--violet btn--width" href="#contact">Start now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- terzo -->
+            <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--blue">
+                <div class="price-box__wrap">
+                    <svg class="price-box__img ecommerce" itemprop="image" itemscope
+                        itemtype="http://schema.org/image"></svg>
+                    <h3 itemprop="name" class="price-box__title">E-commerce</h3>
+                    <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
+                    <span>
+                        <h2 class="price-box__discount">
+                            <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
+                                class="price-box__discount--light">/lifetime</span>
+                        </h2>
+                        <h3 iitemprop="highPrice" class="price-box__price">
+                            <span itemprop="priceCurrency"> <?php echo $tag; ?>
+                            </span><?php echo $ecom_original; ?>
+                        </h3>
+                    </span>
+                    <!-- rating- -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="star-rating" itemprop="aggregateRating" itemscope
+                                itemtype="https://schema.org/AggregateRating">
+                                <span class="fa fa-star" data-rating="1"></span>
+                                <span class="fa fa-star" data-rating="2"></span>
+                                <span class="fa fa-star" data-rating="3"></span>
+                                <span class="fa fa-star" data-rating="4"></span>
+                                <span class="fa fa-star" data-rating="5"></span>
+                                <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
+                                    content='5' value="5">
+                                <span itemprop="reviewCount" content='89'></span>
+                                <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+                                    <span itemprop="name" content='weber'></span>
+                                </span>
+                                <link itemprop="availability" href="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- rating end  -->
+                    <p class="price-box__feat">Features</p>
+                    <ul itemprop="features" class="price-box__list">
+                        <li class="price-box__list-el">Dedicated Developer</li>
+                        <li class="price-box__list-el">GIT Access</li>
+                        <li class="price-box__list-el">Backend Technologies</li>
+                        <li class="price-box__list-el">
+                            Free Cottonseeds.org Sub Domain
+                        </li>
+                        <li class="price-box__list-el">
+                            Free Maintanance for 6 months
+                        </li>
+                        <li class="price-box__list-el">Admin Panel</li>
+                        <li class="price-box__list-el">What else you need ?</li>
+                    </ul>
+                    <div class="price-box__btn">
+                        <a class="btn btn--blue btn--width" href="#contact">Start now</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
     </div>
 
     <div class="sect sect--white" id="success">
