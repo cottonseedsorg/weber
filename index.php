@@ -208,6 +208,7 @@ $url="http://ip-api.com/json/".$rrp;
                     <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
                         <span itemprop="name" content='weber'></span>
                     </span>
+                    <link itemprop="availability" href="https://schema.org/InStock" />
                     <div class="price-box__wrap">
                         <div class="price-box__img static" itemprop="image" itemscope
                             itemtype="http://schema.org/image"></div>
@@ -263,6 +264,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
                             <span itemprop="name" content='weber'></span>
                         </span>
+                        <link itemprop="availability" href="https://schema.org/InStock" />
                         <div class="price-box__wrap">
                             <div class="price-box__img dynamic" itemprop="image" itemscope
                                 itemtype="http://schema.org/image"></div>
@@ -323,6 +325,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
                             <span itemprop="name" content='weber'></span>
                         </span>
+                        <link itemprop="availability" href="https://schema.org/InStock" />
                         <div class="price-box__wrap">
                             <div class="price-box__img ecommerce" itemprop="image" itemscope
                                 itemtype="http://schema.org/image"></div>
