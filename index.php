@@ -203,42 +203,56 @@ $url="http://ip-api.com/json/".$rrp;
                 <h5 class="row__sub">What fits your business the best?</h5>
             </div>
             <div class="row row--center row--margin">
+                <!-- firatn -->
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--purple">
                     <div class="price-box__wrap">
-                        <div class="price-box__img static"></div>
+                        <div class="price-box__img static" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></div>
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
-                        <h2 class="price-box__discount" itemprop="offers" content="<?php echo $static; ?>">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price"><?php echo $tag; ?><?php echo $static_original; ?>
-                        </h3>
+                        <span>
+                            <h2 class="price-box__discount" content="<?php echo $static; ?>">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 itemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency">
+                                    <?php echo $tag; ?></span><?php echo $static_original; ?>
+                            </h3>
+                        </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input type="hidden" name="rating" class="rating-value" value="5">
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
+                                        content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+                                        <span itemprop="name" content='weber'></span>
+                                    </span>
+                                    </span>
+                                    <link itemprop="availability" href="https://schema.org/InStock" />
                                 </div>
                             </div>
-                        </div>
-                        <p class="price-box__feat">Features</p>
-                        <ul itemprop="features" class="price-box__list">
-                            <li class="price-box__list-el">Dedicated Developer</li>
-                            <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Free Hosting</li>
-                            <li class="price-box__list-el">
-                                Free Cottonseeds.org Sub Domain
-                            </li>
-                        </ul>
-                        <div class="price-box__btn">
-                            <a class="btn btn--purple btn--width" href="#contact">Start now</a>
+                            <p class="price-box__feat">Features</p>
+                            <ul itemprop="features" class="price-box__list">
+                                <li class="price-box__list-el">Dedicated Developer</li>
+                                <li class="price-box__list-el">GIT Access</li>
+                                <li class="price-box__list-el">Free Hosting</li>
+                                <li class="price-box__list-el">
+                                    Free Cottonseeds.org Sub Domain
+                                </li>
+                            </ul>
+                            <div class="price-box__btn">
+                                <a class="btn btn--purple btn--width" href="#contact">Start now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -246,25 +260,38 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--violet">
                     <div class="price-box__wrap">
-                        <div class="price-box__img dynamic"></div>
+                        <div class="price-box__img dynamic" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></div>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
-                        <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
-                        <h2 class="price-box__discount" itemprop="offers">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price">
-                            <?php echo $tag; ?><?php echo $dynamic_original; ?></h3>
+                        <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
+                        <span>
+                            <h2 class="price-box__discount">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price"
+                                    content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 itemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency">
+                                    <?php echo $tag; ?></span><?php echo $dynamic_original; ?>
+                            </h3>
+                        </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input type="hidden" name="rating" class="rating-value" value="5">
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
+                                        content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+                                        <span itemprop="name" content='weber'></span>
+                                    </span>
+                                    <link itemprop="availability" href="https://schema.org/InStock" />
                                 </div>
                             </div>
                         </div>
@@ -290,26 +317,38 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--blue">
                     <div class="price-box__wrap">
-                        <div class="price-box__img ecommerce"></div>
+                        <div class="price-box__img ecommerce" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></div>
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
-                        <h2 class="price-box__discount" itemprop="offers">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price"><?php echo $tag; ?><?php echo $ecom_original; ?>
-                        </h3>
+                        <span>
+                            <h2 class="price-box__discount">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 iitemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency"> <?php echo $tag; ?>
+                                </span><?php echo $ecom_original; ?>
+                            </h3>
+                        </span>
                         <!-- rating- -->
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input type="hidden" name="rating" class="rating-value" value="5">
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
+                                        content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+                                        <span itemprop="name" content='weber'></span>
+                                    </span>
+                                    <link itemprop="availability" href="https://schema.org/InStock" />
                                 </div>
                             </div>
                         </div>
