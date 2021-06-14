@@ -206,7 +206,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--purple">
                     <div class="price-box__wrap">
-                        <div class="price-box__img static"></div>
+                        <div class="price-box__img static" itemprop="image"></div>
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
                         <span>
@@ -232,6 +232,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
                                     <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" content='weber'></span>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +254,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--violet">
                     <div class="price-box__wrap">
-                        <div class="price-box__img dynamic"></div>
+                        <div class="price-box__img dynamic" itemprop="image"></div>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
                         <span>
@@ -280,6 +281,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
                                     <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" content='weber'></span>
                                 </div>
                             </div>
                         </div>
@@ -305,7 +307,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--blue">
                     <div class="price-box__wrap">
-                        <div class="price-box__img ecommerce"></div>
+                        <div class="price-box__img ecommerce" itemprop="image"></div>
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
                         <span>
@@ -331,6 +333,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
                                     <span itemprop="reviewCount" content='89'></span>
+                                    <span itemprop="brand" content='weber'></span>
                                 </div>
                             </div>
                         </div>
