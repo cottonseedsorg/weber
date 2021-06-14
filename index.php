@@ -209,22 +209,26 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img static"></div>
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
-                        <h2 class="price-box__discount" itemprop="offers" content="<?php echo $static; ?>">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price"><?php echo $tag; ?><?php echo $static_original; ?>
-                        </h3>
+                        <span itemprop="offers">
+                            <h2 class="price-box__discount" itemprop="lowPrice" content="<?php echo $static; ?>">
+                                <span itemprop="priceCurrency"
+                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 itemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency">
+                                    <?php echo $tag; ?></span><?php echo $static_original; ?>
+                            </h3>
+                        </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="aggregateRating" type="hidden" name="rating" class="rating-value"
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         value="5">
                                 </div>
                             </div>
@@ -250,22 +254,26 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img dynamic"></div>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
-                        <h2 class="price-box__discount" itemprop="offers">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price">
-                            <?php echo $tag; ?><?php echo $dynamic_original; ?></h3>
+                        <span itemprop="offers">
+                            <h2 class="price-box__discount" itemprop="lowPrice">
+                                <span itemprop="priceCurrency"
+                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 itemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency">
+                                    <?php echo $tag; ?></span><?php echo $dynamic_original; ?>
+                            </h3>
+                        </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="aggregateRating" type="hidden" name="rating" class="rating-value"
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         value="5">
                                 </div>
                             </div>
@@ -295,23 +303,26 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img ecommerce"></div>
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
-                        <h2 class="price-box__discount" itemprop="offers">
-                            <span itemprop="priceCurrency"
-                                class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
-                                class="price-box__discount--light">/lifetime</span>
-                        </h2>
-                        <h3 itemprop="price" class="price-box__price"><?php echo $tag; ?><?php echo $ecom_original; ?>
-                        </h3>
+                        <span itemprop="offers">
+                            <h2 class="price-box__discount" itemprop="lowPrice">
+                                <span itemprop="priceCurrency"
+                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
+                                    class="price-box__discount--light">/lifetime</span>
+                            </h2>
+                            <h3 iitemprop="highPrice" class="price-box__price">
+                                <span itemprop="priceCurrency"> <?php echo $tag; ?> </span><?php echo $ecom_original; ?>
+                            </h3>
+                        </span>
                         <!-- rating- -->
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating">
+                                <div class="star-rating" itemprop="aggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="aggregateRating" type="hidden" name="rating" class="rating-value"
+                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         value="5">
                                 </div>
                             </div>
