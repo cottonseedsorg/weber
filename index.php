@@ -210,9 +210,9 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="price" content="<?php echo $static; ?>">
-                                <span itemprop="priceCurrency"
-                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
+                            <h2 class="price-box__discount" content="<?php echo $static; ?>">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price"><?php echo $static; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
@@ -255,9 +255,9 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="price">
-                                <span itemprop="priceCurrency"
-                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
+                            <h2 class="price-box__discount">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price"><?php echo $dynamic; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
@@ -304,9 +304,9 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="price">
-                                <span itemprop="priceCurrency"
-                                    class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
+                            <h2 class="price-box__discount">
+                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
+                                    itemprop="price"><?php echo $ecom; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 iitemprop="highPrice" class="price-box__price">
