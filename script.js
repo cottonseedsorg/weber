@@ -1,5 +1,9 @@
+var parts = ["reachweber", "cottonseeds", "org", "&#46;", "&#64;"];
+var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+document.getElementById("email-obs").innerHTML = email;
+
 $("#myCarousel").carousel({
-  interval: false
+  interval: false,
 });
 
 $(document).ready(function () {
