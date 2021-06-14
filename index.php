@@ -222,7 +222,8 @@ $url="http://ip-api.com/json/".$rrp;
                         </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" content='5'>
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
@@ -230,6 +231,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
                                 </div>
                             </div>
                         </div>
@@ -268,7 +270,8 @@ $url="http://ip-api.com/json/".$rrp;
                         </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" content='5'>
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
@@ -276,6 +279,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +321,8 @@ $url="http://ip-api.com/json/".$rrp;
                         <!-- rating- -->
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" content='5'>
+                                <div class="star-rating" itemprop="aggregateRating" itemscope
+                                    itemtype="https://schema.org/AggregateRating">
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
@@ -325,6 +330,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
                                         content='5' value="5">
+                                    <span itemprop="reviewCount" content='89'></span>
                                 </div>
                             </div>
                         </div>
