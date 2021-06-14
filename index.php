@@ -175,10 +175,10 @@ $url="http://ip-api.com/json/".$rrp;
             <div class="row">
                 <div class="col-md-12">
                     <div class="site">
-                        <h1 class="site__title">
+                        <h3 class="site__title">
                             Fast paced way to grow your business
-                        </h1>
-                        <h2 class="site__subtitle">Manage business like a boss</h2>
+                        </h3>
+                        <h5 class="site__subtitle">Manage business like a boss</h5>
                         <div class="site__box-link">
                             <a class="btn btn--width" href="#pricing">Pricing</a>
                             <a class="btn btn--revert btn--width" href="graphics">Graphics</a>
@@ -194,8 +194,8 @@ $url="http://ip-api.com/json/".$rrp;
     <div class="sect sect--padding-bottom" id="pricing">
         <div class="container">
             <div class="row row--center">
-                <h1 class="row__title">Pricing</h1>
-                <h2 class="row__sub">What fits your business the best?</h2>
+                <h3 class="row__title">Pricing</h3>
+                <h5 class="row__sub">What fits your business the best?</h5>
             </div>
             <div class="row row--center row--margin">
                 <div itemscope itemtype="https://schema.org/Product"
@@ -294,11 +294,11 @@ $url="http://ip-api.com/json/".$rrp;
     <div class="sect sect--white" id="success">
         <div class="container">
             <div class="row">
-                <h1 class="row__title">Success Stories</h1>
-                <h2 class="row__sub">
+                <h3 class="row__title">Success Stories</h3>
+                <h5 class="row__sub">
                     Companies you <span class="row__sub--light">(will)</span> propably
                     know
-                </h2>
+                </h5>
             </div>
             <div class="row row--margin row--text-center">
                 <div class="col-md-8 col-sm-10 col-xs-12 row__carousel">
@@ -496,8 +496,8 @@ $url="http://ip-api.com/json/".$rrp;
     <div class="sect sect--padding-bottom" id="contact">
         <div class="container">
             <div class="row">
-                <h1 class="row__title">Contact Us</h1>
-                <h2 class="row__sub">Feel free to ask any questions</h2>
+                <h3 class="row__title">Contact Us</h3>
+                <h5 class="row__sub">Feel free to ask any questions</h5>
             </div>
             <div class="row row--margin">
                 <div class="col-md-1"></div>
@@ -590,9 +590,9 @@ $url="http://ip-api.com/json/".$rrp;
             <div class="row">
                 <div class="col-md-2 col-xs-6">
                     <img class="footer__img" alt='weber logo' src="weber.svg" />
-                    <h1 class="footer__title">
+                    <h5 class="footer__title">
                         Weber<span class="footer__light"> Websites</span>
-                    </h1>
+                    </h5>
                 </div>
                 <div class="col-md-10 col-xs-6">
                     <div class="footer__social">
