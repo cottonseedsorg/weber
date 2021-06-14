@@ -209,7 +209,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img static"></div>
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
-                        <span itemprop="offers">
+                        <span>
                             <h2 class="price-box__discount" content="<?php echo $static; ?>">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
@@ -254,7 +254,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img dynamic"></div>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
-                        <span itemprop="offers">
+                        <span>
                             <h2 class="price-box__discount">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price"
@@ -304,7 +304,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="price-box__img ecommerce"></div>
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
-                        <span itemprop="offers">
+                        <span>
                             <h2 class="price-box__discount">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
