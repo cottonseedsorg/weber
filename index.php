@@ -222,7 +222,7 @@ $url="http://ip-api.com/json/".$rrp;
                         </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating">
+                                <div class="star-rating" itemprop="aggregateRating" content='5'>
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
@@ -253,7 +253,7 @@ $url="http://ip-api.com/json/".$rrp;
                     <div class="price-box__wrap">
                         <div class="price-box__img dynamic"></div>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
-                        <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
+                        <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
                         <span>
                             <h2 class="price-box__discount">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
@@ -268,7 +268,7 @@ $url="http://ip-api.com/json/".$rrp;
                         </span>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating">
+                                <div class="star-rating" itemprop="aggregateRating" content='5'>
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
@@ -317,7 +317,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <!-- rating- -->
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating">
+                                <div class="star-rating" itemprop="aggregateRating" content='5'>
                                     <span class="fa fa-star" data-rating="1"></span>
                                     <span class="fa fa-star" data-rating="2"></span>
                                     <span class="fa fa-star" data-rating="3"></span>
