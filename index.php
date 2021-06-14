@@ -210,7 +210,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="lowPrice" content="<?php echo $static; ?>">
+                            <h2 class="price-box__discount" itemprop="price" content="<?php echo $static; ?>">
                                 <span itemprop="priceCurrency"
                                     class="price-box__dollar"><?php echo $tag; ?></span><?php echo $static; ?><span
                                     class="price-box__discount--light">/lifetime</span>
@@ -255,7 +255,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Grest Dynamic Website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="lowPrice">
+                            <h2 class="price-box__discount" itemprop="price">
                                 <span itemprop="priceCurrency"
                                     class="price-box__dollar"><?php echo $tag; ?></span><?php echo $dynamic; ?><span
                                     class="price-box__discount--light">/lifetime</span>
@@ -304,7 +304,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
                         <span itemprop="offers">
-                            <h2 class="price-box__discount" itemprop="lowPrice">
+                            <h2 class="price-box__discount" itemprop="price">
                                 <span itemprop="priceCurrency"
                                     class="price-box__dollar"><?php echo $tag; ?></span><?php echo $ecom; ?><span
                                     class="price-box__discount--light">/lifetime</span>
