@@ -212,7 +212,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <span itemprop="offers">
                             <h2 class="price-box__discount" content="<?php echo $static; ?>">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price"><?php echo $static; ?></span><span
+                                    itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
@@ -229,7 +229,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        value="5">
+                                        content='5' value="5">
                                 </div>
                             </div>
                         </div>
@@ -257,7 +257,8 @@ $url="http://ip-api.com/json/".$rrp;
                         <span itemprop="offers">
                             <h2 class="price-box__discount">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price"><?php echo $dynamic; ?></span><span
+                                    itemprop="price"
+                                    content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
@@ -274,7 +275,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        value="5">
+                                        content='5' value="5">
                                 </div>
                             </div>
                         </div>
@@ -306,7 +307,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <span itemprop="offers">
                             <h2 class="price-box__discount">
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price"><?php echo $ecom; ?></span><span
+                                    itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
                             </h2>
                             <h3 iitemprop="highPrice" class="price-box__price">
@@ -323,7 +324,7 @@ $url="http://ip-api.com/json/".$rrp;
                                     <span class="fa fa-star" data-rating="4"></span>
                                     <span class="fa fa-star" data-rating="5"></span>
                                     <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        value="5">
+                                        content='5' value="5">
                                 </div>
                             </div>
                         </div>
