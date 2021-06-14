@@ -207,8 +207,8 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--purple">
                     <div class="price-box__wrap">
-                        <div class="price-box__img static" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></div>
+                        <svg class="price-box__img static" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></svg>
                         <h3 itemprop="name" class="price-box__title">Static</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
                         <span>
@@ -260,8 +260,8 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--violet">
                     <div class="price-box__wrap">
-                        <div class="price-box__img dynamic" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></div>
+                        <svg class="price-box__img dynamic" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></svg>
                         <h3 itemprop="name" class="price-box__title">Dynamic</h3>
                         <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
                         <span>
@@ -317,8 +317,8 @@ $url="http://ip-api.com/json/".$rrp;
                 <div itemscope itemtype="https://schema.org/Product"
                     class="col-md-4 col-sm-4 price-box price-box--blue">
                     <div class="price-box__wrap">
-                        <div class="price-box__img ecommerce" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></div>
+                        <svg class="price-box__img ecommerce" itemprop="image" itemscope
+                            itemtype="http://schema.org/image"></svg>
                         <h3 itemprop="name" class="price-box__title">E-commerce</h3>
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
                         <span>
