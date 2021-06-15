@@ -615,8 +615,8 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="form-group">
                             <select class="form__field form__select" name="type">
                                 <option selected value>Choose topic*</option>
-                                <option value="1">Pricing</option>
-                                <option value="2">Success Stories</option>
+                                <option value="1">Weber Websites</option>
+                                <option value="2">Weber Graphics</option>
                             </select>
                         </div>
                         <div class="form-group">
