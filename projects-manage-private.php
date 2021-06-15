@@ -54,7 +54,7 @@ $res=mysqli_query($con,'SELECT * FROM `contact` ');
     <meta name="theme-color" content="#3a9fff" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/p-m-p.css" />
+    <link rel="stylesheet" href="css/p-m-p.css?v=1" />
 </head>
 
 <body>
