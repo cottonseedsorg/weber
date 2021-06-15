@@ -613,7 +613,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-6">
                     <form id="contact" class="form" method="POST" action="send">
                         <div class="form-group">
-                            <select class="form__field form__select" name="type">
+                            <select class="form__field form__select" name="type" required>
                                 <option selected value>Choose topic*</option>
                                 <option value="1">Weber Websites</option>
                                 <option value="2">Weber Graphics</option>
@@ -621,7 +621,8 @@ $url="http://ip-api.com/json/".$rrp;
                         </div>
                         <div class="form-group">
                             <div class="form__field--half">
-                                <input type="text" placeholder="Name*" name="name" class="form__field form__text" />
+                                <input type="text" placeholder="Name*" name="name" class="form__field form__text"
+                                    required />
                             </div>
                             <div class="form__field--half">
                                 <input type="text" placeholder="Surname" name="surname"
@@ -632,7 +633,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <div class="form-group">
                             <div class="form__field--half">
                                 <input type="text" placeholder="Email address*" name="email"
-                                    class="form__field form__text" />
+                                    class="form__field form__text" required />
                             </div>
                             <div class="form__field--half">
                                 <input type="text" placeholder="Phone number" name="contact"
@@ -642,7 +643,7 @@ $url="http://ip-api.com/json/".$rrp;
 
                         <div class="form-group">
                             <textarea type="text" placeholder="Your messsage*" name="message"
-                                class="form__field form__textarea"></textarea>
+                                class="form__field form__textarea" required></textarea>
                             <button class="btn btn--up btn--width" type="submit">
                                 Submit
                             </button>

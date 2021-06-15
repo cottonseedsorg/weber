@@ -580,12 +580,21 @@ body {
     }
   }
 
-  &.disabled {
+  &.pending {
     color: #59719d;
     background-color: rgba(89, 113, 157, 0.2);
 
     &:before {
       background-color: #59719d;
+    }
+  }
+
+  &.rejected {
+    color: #f84242ef;
+    background-color: rgba(89, 113, 157, 0.2);
+
+    &:before {
+      background-color: #f84242ef;
     }
   }
 }
