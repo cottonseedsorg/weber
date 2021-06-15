@@ -298,7 +298,13 @@ $res=mysqli_query($con,'SELECT * FROM `contact` ');
                     </div>
                     <div class="product-cell status-cell">
                         <span class="cell-label">Status:</span>
-                        <span class="status active"><?php echo $status ?></span>
+                        <span class="status active"><?php if($status=='1'){
+                          echo "Active";
+                        }elseif($status=='3'){
+                          echo "Rejected";
+                        }else{
+                          echo "Pending";
+                        } ?></span>
                     </div>
                     <div class="product-cell sales">
                         <span class="cell-label">Contact:</span><?php echo $contact ?>
