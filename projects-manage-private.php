@@ -12,6 +12,7 @@ $res=mysqli_query($con,'SELECT * FROM `contact` ');
     <meta charset="UTF-8" />
     <title>Weber | Admin Panel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
     <meta name="description"
         content="Weber by CottonSeeds.org . Most premium and best website builder ever , with dedicated developers" />
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
