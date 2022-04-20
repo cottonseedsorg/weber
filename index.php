@@ -216,7 +216,7 @@ $url="http://ip-api.com/json/".$rrp;
                                 <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
-                                    class="price-box__discount--light">/lifetime</span>
+                                    class="price-box__discount--light">/Project</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
                                 <span itemprop="priceCurrency">
@@ -272,7 +272,7 @@ $url="http://ip-api.com/json/".$rrp;
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price"
                                     content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
-                                    class="price-box__discount--light">/lifetime</span>
+                                    class="price-box__discount--light">/Project</span>
                             </h2>
                             <h3 itemprop="highPrice" class="price-box__price">
                                 <span itemprop="priceCurrency">
@@ -329,7 +329,7 @@ $url="http://ip-api.com/json/".$rrp;
                                 <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
-                                    class="price-box__discount--light">/lifetime</span>
+                                    class="price-box__discount--light">/Project</span>
                             </h2>
                             <h3 iitemprop="highPrice" class="price-box__price">
                                 <span itemprop="priceCurrency"> <?php echo $tag; ?>
