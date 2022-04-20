@@ -220,6 +220,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Creative Logo's
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $logo; ?><span
                                 class="price-box__discount--light">/logo</span>
                         </h2>
@@ -243,6 +244,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Attractive Brochure
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $brochure; ?><span
                                 class="price-box__discount--light">/brochure</span>
                         </h2>
@@ -267,6 +269,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Modern Packaging Design's
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $package; ?><span
                                 class="price-box__discount--light">/package</span>
                         </h2>
@@ -292,6 +295,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Cover And Layout Design
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $cover; ?><span
                                 class="price-box__discount--light">/Cover</span>
                         </h2>
@@ -319,6 +323,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Informative Thumbnail's
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $thumbnail; ?><span
                                 class="price-box__discount--light">/Thumbnail</span>
                         </h2>
@@ -344,6 +349,7 @@ $url="http://ip-api.com/json/".$rrp;
                             Instagram , Facebook ..etc
                         </p>
                         <h2 class="price-box__discount">
+                            <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                             <span class="price-box__dollar"><?php echo $tag; ?></span><?php echo $post; ?><span
                                 class="price-box__discount--light">/post</span>
                         </h2>

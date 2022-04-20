@@ -213,6 +213,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
                         <span>
                             <h2 class="price-box__discount" content="<?php echo $static; ?>">
+                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
@@ -267,6 +268,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
                         <span>
                             <h2 class="price-box__discount">
+                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price"
                                     content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
@@ -324,6 +326,7 @@ $url="http://ip-api.com/json/".$rrp;
                         <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
                         <span>
                             <h2 class="price-box__discount">
+                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
                                 <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
                                     itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
                                     class="price-box__discount--light">/lifetime</span>
