@@ -1,81 +1,21 @@
-<?php 
-require('functions.php');
-$iiip = get_client_ip();
-$rrp = trim($iiip);
-$url="http://ip-api.com/json/".$rrp;
-    $ch=curl_init();
-    curl_setopt($ch,CURLOPT_URL,$url);
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-    $result=curl_exec($ch);
-    curl_close($ch);
-    $result=json_decode($result, true);
-    $country='';
-        $countryCode='';
-        $region='';
-        $regionName='';
-        $city='';
-        $zip='';
-        $lat='';
-        $lon='';
-        $timezone='';
-        $isp='';
-        $org='';
-        $as='';
-        $ip='';
-        
-    if($result['status']='success'){
-        $country=$result['country'];
-        $countryCode=$result['countryCode'];
-        $region=$result['region'];
-        $regionName=$result['regionName'];
-        $city=$result['city'];
-        $zip=$result['zip'];
-        $lat=$result['lat'];
-        $lon=$result['lon'];
-        $timezone=$result['timezone'];
-        $isp=$result['isp'];
-        $org=$result['org'];
-        $as=$result['as'];
-        $ip=$result['query'];
-    }
-    if ($countryCode=='IN'){
-      $india='yes';
-      $tag = 'Rs.';
-      $static = '5000';
-      $static_original = '8000';
-      $dynamic = '10,000';
-      $dynamic_original = '18,000';
-      $ecom = '15,000';
-      $ecom_original = '30,000';
-    }else{
-      $india='no';
-      $tag = '$';
-      $static = '68';
-      $static_original = '109';
-      $dynamic = '136';
-      $dynamic_original = '245';
-      $ecom = '204';
-      $ecom_original = '409';
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
-    <title>Weber Websites</title>
+    <title>Weber Technologies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description"
-        content="Weber Websites by CottonSeeds . Most premium and best website builder ever , with dedicated developers . We make premium and quality websites for you at very low cost with a dedicated developer for you." />
+        content="Welcome to Weber Technologies! We are a leading IT company specializing in web development, Android and iOS app development, UI/UX design, digital marketing, consultancy services, content writing, project management, and server hosting. Our experienced team delivers cutting-edge solutions to propel your business forward. Partner with us to harness the power of technology and achieve your digital goals." />
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="Weber Websites" />
+    <meta property="og:site_name" content="Weber Technologies" />
     <!-- website name -->
     <meta property="og:site" content="https://weber.cottonseeds.org" />
     <!-- website link -->
-    <meta property="og:title" content="Weber Websites" />
+    <meta property="og:title" content="Weber Technologies" />
     <!-- title shown in the actual shared post -->
     <meta property="og:description"
-        content="Weber Websites by CottonSeeds . Most premium and best website builder ever , with dedicated developers . We make premium and quality websites for you at very low cost with a dedicated developer for you." />
+        content="Welcome to Weber Technologies! We are a leading IT company specializing in web development, Android and iOS app development, UI/UX design, digital marketing, consultancy services, content writing, project management, and server hosting. Our experienced team delivers cutting-edge solutions to propel your business forward. Partner with us to harness the power of technology and achieve your digital goals." />
     <!-- description shown in the actual shared post -->
     <meta property="og:image" content="weber-og.jpg" />
     <!-- image link, make sure it's jpg -->
@@ -84,7 +24,7 @@ $url="http://ip-api.com/json/".$rrp;
     <meta property="og:type" content="website" />
 
     <meta name="keywords"
-        content="Weber, cottonseeds, websites , features , weber graphics, weber websites, websites builders, graphic designers" />
+        content="Web development, Android development, iOS development, UI/UX design, Digital marketing, Consultancy services, Content writing, Project management, Server hosting, IT solutions, Technology services, Online presence, App development, Responsive websites, SEO optimization, E-commerce solutions." />
     <!-- og end -->
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png" />
@@ -114,7 +54,8 @@ $url="http://ip-api.com/json/".$rrp;
     <!-- <link rel='stylesheet'
         href='https://raw.githubusercontent.com/kartik-v/bootstrap-star-rating/master/css/star-rating.min.css'> -->
     <!-- jest  -->
-    <link rel="stylesheet" href="./style.css?v=5" />
+    <link rel="stylesheet" href="./style.css?v=6" />
+    <link rel="stylesheet" href="css/custom.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199370291-1">
     </script>
@@ -139,7 +80,7 @@ $url="http://ip-api.com/json/".$rrp;
             <div class="header__logo">
                 <img class="header__img" alt='weber websites logo' src="weber.svg" />
                 <h1 class="header__title">
-                    Weber<span class="header__light"> Websites</span>
+                    Weber<span class="header__light"> Technologies</span>
                 </h1>
             </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -157,7 +98,7 @@ $url="http://ip-api.com/json/".$rrp;
                             <a href="#" class="header__link scroll">Home</a>
                         </li>
                         <li class="header__el">
-                            <a href="#pricing" class="header__link scroll">Pricing</a>
+                            <a href="#pricing" class="header__link scroll">Services</a>
                         </li>
                         <li class="header__el">
                             <a href="#success" class="header__link scroll">Success stories</a>
@@ -181,12 +122,12 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-12">
                     <div class="site">
                         <h3 class="site__title">
-                            Fast paced way to grow your business
+                            Ignite Your Business Potential
                         </h3>
-                        <h5 class="site__subtitle">Manage business like a boss</h5>
+                        <h5 class="site__subtitle">Effortless Business Management, Amplified Success</h5>
                         <div class="site__box-link">
-                            <a class="btn btn--width" href="#pricing">Pricing</a>
-                            <a class="btn btn--revert btn--width" href="graphics">Graphics</a>
+                            <a class="btn btn--width" href="#pricing">Services</a>
+                            <a class="btn btn--revert btn--width" href="contact">Contact</a>
                         </div>
                         <img class="site__img" alt='weber laptop website'
                             src="https://image.ibb.co/c7grYb/image3015.png" />
@@ -199,180 +140,79 @@ $url="http://ip-api.com/json/".$rrp;
     <div class="sect sect--padding-bottom" id="pricing">
         <div class="container">
             <div class="row row--center">
-                <h3 class="row__title">Pricing</h3>
-                <h5 class="row__sub">What fits your business the best?</h5>
+                <h2 class="row__title">Our Services</h2>
+                <h3 class="row__sub">Unlock Your Full Potential</h3>
             </div>
             <div class="row row--center row--margin">
-                <!-- firatn -->
-                <div itemscope itemtype="https://schema.org/Product"
-                    class="col-md-4 col-sm-4 price-box price-box--purple">
+                <!-- Web Development -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--purple">
                     <div class="price-box__wrap">
-                        <svg class="price-box__img static" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></svg>
-                        <h3 itemprop="name" class="price-box__title">Static</h3>
+                        <img class="price-box__img" itemprop="image" src="svg/lap-design.svg" alt="Web Development" />
+                        <h3 itemprop="name" class="price-box__title">Web Development</h3>
                         <p itemprop="description" class="price-box__people">Simple Front-End website</p>
-                        <span>
-                            <h2 class="price-box__discount" content="<?php echo $static; ?>">
-                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
-                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price" content='<?php echo $static; ?>'><?php echo $static; ?></span><span
-                                    class="price-box__discount--light">/Project</span>
-                            </h2>
-                            <h3 itemprop="highPrice" class="price-box__price">
-                                <span itemprop="priceCurrency">
-                                    <?php echo $tag; ?></span><?php echo $static_original; ?>
-                            </h3>
-                        </span>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" itemscope
-                                    itemtype="https://schema.org/AggregateRating">
-                                    <span class="fa fa-star" data-rating="1"></span>
-                                    <span class="fa fa-star" data-rating="2"></span>
-                                    <span class="fa fa-star" data-rating="3"></span>
-                                    <span class="fa fa-star" data-rating="4"></span>
-                                    <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        content='5' value="5">
-                                    <span itemprop="reviewCount" content='89'></span>
-                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-                                        <span itemprop="name" content='weber'></span>
-                                    </span>
-                                    </span>
-                                    <link itemprop="availability" href="https://schema.org/InStock" />
-                                </div>
-                            </div>
-                        </div>
-                        <p class="price-box__feat">Features</p>
-                        <ul itemprop="features" class="price-box__list">
-                            <li class="price-box__list-el">Dedicated Developer</li>
-                            <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Free Hosting</li>
-                            <li class="price-box__list-el">
-                                Free Cottonseeds.org Sub Domain
-                            </li>
-                        </ul>
+                        <p class="pro-des">Web development involves creating visually appealing and user-friendly websites that align with your business objectives.</p>
                         <div class="price-box__btn">
                             <a class="btn btn--purple btn--width" href="#contact">Start now</a>
                         </div>
-                        <!-- </div> -->
                     </div>
                 </div>
-                <!-- second -->
-                <div itemscope itemtype="https://schema.org/Product"
-                    class="col-md-4 col-sm-4 price-box price-box--violet">
+                <!-- UI/UX Designing -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--blue">
                     <div class="price-box__wrap">
-                        <svg class="price-box__img dynamic" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></svg>
-                        <h3 itemprop="name" class="price-box__title">Dynamic</h3>
-                        <p itemprop="description" class="price-box__people">Great Dynamic Website</p>
-                        <span>
-                            <h2 class="price-box__discount">
-                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
-                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price"
-                                    content='<?php echo $dynamic; ?>'><?php echo $dynamic; ?></span><span
-                                    class="price-box__discount--light">/Project</span>
-                            </h2>
-                            <h3 itemprop="highPrice" class="price-box__price">
-                                <span itemprop="priceCurrency">
-                                    <?php echo $tag; ?></span><?php echo $dynamic_original; ?>
-                            </h3>
-                        </span>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" itemscope
-                                    itemtype="https://schema.org/AggregateRating">
-                                    <span class="fa fa-star" data-rating="1"></span>
-                                    <span class="fa fa-star" data-rating="2"></span>
-                                    <span class="fa fa-star" data-rating="3"></span>
-                                    <span class="fa fa-star" data-rating="4"></span>
-                                    <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        content='5' value="5">
-                                    <span itemprop="reviewCount" content='89'></span>
-                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-                                        <span itemprop="name" content='weber'></span>
-                                    </span>
-                                    <link itemprop="availability" href="https://schema.org/InStock" />
-                                </div>
-                            </div>
-                        </div>
-                        <p class="price-box__feat">Features</p>
-                        <ul itemprop="features" class="price-box__list">
-                            <li class="price-box__list-el">Dedicated Developer</li>
-                            <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Backend Technologies</li>
-                            <li class="price-box__list-el">
-                                Free Cottonseeds.org Sub Domain
-                            </li>
-                            <li class="price-box__list-el">
-                                Free Maintanance for 6 months
-                            </li>
-                        </ul>
-                        <div class="price-box__btn">
-                            <a class="btn btn--violet btn--width" href="#contact">Start now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- terzo -->
-                <div itemscope itemtype="https://schema.org/Product"
-                    class="col-md-4 col-sm-4 price-box price-box--blue">
-                    <div class="price-box__wrap">
-                        <svg class="price-box__img ecommerce" itemprop="image" itemscope
-                            itemtype="http://schema.org/image"></svg>
-                        <h3 itemprop="name" class="price-box__title">E-commerce</h3>
-                        <p itemprop="description" class="price-box__people">Powerful E-commerce Website</p>
-                        <span>
-                            <h2 class="price-box__discount">
-                                <span class="price-box__dollar" style="font-size: 20px;font-weight: 600;">From</span>
-                                <span itemprop="priceCurrency" class="price-box__dollar"><?php echo $tag; ?></span><span
-                                    itemprop="price" content='<?php echo $ecom; ?>'><?php echo $ecom; ?></span><span
-                                    class="price-box__discount--light">/Project</span>
-                            </h2>
-                            <h3 iitemprop="highPrice" class="price-box__price">
-                                <span itemprop="priceCurrency"> <?php echo $tag; ?>
-                                </span><?php echo $ecom_original; ?>
-                            </h3>
-                        </span>
-                        <!-- rating- -->
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="star-rating" itemprop="aggregateRating" itemscope
-                                    itemtype="https://schema.org/AggregateRating">
-                                    <span class="fa fa-star" data-rating="1"></span>
-                                    <span class="fa fa-star" data-rating="2"></span>
-                                    <span class="fa fa-star" data-rating="3"></span>
-                                    <span class="fa fa-star" data-rating="4"></span>
-                                    <span class="fa fa-star" data-rating="5"></span>
-                                    <input itemprop="ratingValue" type="hidden" name="rating" class="rating-value"
-                                        content='5' value="5">
-                                    <span itemprop="reviewCount" content='89'></span>
-                                    <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-                                        <span itemprop="name" content='weber'></span>
-                                    </span>
-                                    <link itemprop="availability" href="https://schema.org/InStock" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- rating end  -->
-                        <p class="price-box__feat">Features</p>
-                        <ul itemprop="features" class="price-box__list">
-                            <li class="price-box__list-el">Dedicated Developer</li>
-                            <li class="price-box__list-el">GIT Access</li>
-                            <li class="price-box__list-el">Backend Technologies</li>
-                            <li class="price-box__list-el">
-                                Free Cottonseeds.org Sub Domain
-                            </li>
-                            <li class="price-box__list-el">
-                                Free Maintanance for 6 months
-                            </li>
-                            <li class="price-box__list-el">Admin Panel</li>
-                            <li class="price-box__list-el">What else you need ?</li>
-                        </ul>
+                        <img class="price-box__img" itemprop="image" src="svg/register.svg" alt="UI/UX Designing" />
+                        <h3 itemprop="name" class="price-box__title">UI/UX Designing</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <p class="pro-des">UI/UX designing focuses on creating intuitive and visually appealing interfaces to enhance the user experience of your website.</p>
                         <div class="price-box__btn">
                             <a class="btn btn--blue btn--width" href="#contact">Start now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Android Development -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--green">
+                    <div class="price-box__wrap">
+                        <img class="price-box__img" itemprop="image" src="svg/android.svg" alt="Android Development" />
+                        <h3 itemprop="name" class="price-box__title">Android Development</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <p class="pro-des">Android development involves creating mobile applications specifically tailored for Android devices to reach a wider audience.</p>
+                        <div class="price-box__btn">
+                            <a class="btn btn--green btn--width" href="#contact">Start now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- iOS Development -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--orange">
+                    <div class="price-box__wrap">
+                        <img class="price-box__img" itemprop="image" src="svg/ios.svg" alt="iOS Development" />
+                        <h3 itemprop="name" class="price-box__title">iOS Development</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <p class="pro-des">iOS development focuses on creating mobile applications specifically designed for iOS devices, providing a seamless user experience to Apple users.</p>
+                        <div class="price-box__btn">
+                            <a class="btn btn--orange btn--width" href="#contact">Start now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Digital Marketing -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--red">
+                    <div class="price-box__wrap">
+                        <img class="price-box__img" itemprop="image" src="svg/bullhorn.svg" alt="Digital Marketing" />
+                        <h3 itemprop="name" class="price-box__title">Digital Marketing</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <p class="pro-des">Digital marketing involves promoting your business online through various strategies such as SEO, social media marketing, and email marketing to reach your target audience effectively.</p>
+                        <div class="price-box__btn">
+                            <a class="btn btn--red btn--width" href="#contact">Start now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Writing -->
+                <div itemscope itemtype="https://schema.org/Product" class="col-md-4 col-sm-4 price-box price-box--yellow">
+                    <div class="price-box__wrap">
+                        <img class="price-box__img" itemprop="image" src="svg/thumbnails.svg" alt="Content Writing" />
+                        <h3 itemprop="name" class="price-box__title">Content Writing</h3>
+                        <p itemprop="description" class="price-box__people">Simple Front-End website</p>
+                        <p class="pro-des">Content writing focuses on creating engaging and informative content for your website or marketing materials to attract and retain your target audience.</p>
+                        <div class="price-box__btn">
+                            <a class="btn btn--yellow btn--width" href="#contact">Start now</a>
                         </div>
                     </div>
                 </div>
@@ -594,7 +434,7 @@ $url="http://ip-api.com/json/".$rrp;
                     <div class="contacts">
                         <a href="#" class="contacts__link"><img alt='weber logo' src="weber.svg" />
                             <p class="contacts_title-ag">
-                                Weber<span class="contacts--light"> Websites</span>
+                                Weber<span class="contacts--light"> Technologies</span>
                             </p>
                         </a>
                         <p class="contacts__address">
@@ -682,7 +522,7 @@ $url="http://ip-api.com/json/".$rrp;
                 <div class="col-md-2 col-xs-6">
                     <img class="footer__img" alt='weber logo' src="weber.svg" />
                     <h5 class="footer__title">
-                        Weber<span class="footer__light"> Websites</span>
+                        Weber<span class="footer__light"> Technologies</span>
                     </h5>
                 </div>
                 <div class="col-md-10 col-xs-6">
