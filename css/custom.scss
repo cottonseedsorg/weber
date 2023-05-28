@@ -13,3 +13,27 @@
 .pro-des {
   font-weight: 300;
 }
+
+element.style {
+  width: 34.33333333%;
+}
+.price-box {
+  padding: 0px 25px;
+  margin-top: 5em;
+}
+@media (min-width: 992px) {
+  .col-md-md-4 {
+    width: 34.33333333% !important;
+  }
+  .col-md-4.yu {
+    width: 32.33333333% !important;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-sm-4 {
+    width: 34.33333333% !important;
+  }
+  .col-sm-4.yu {
+    width: 32.33333333% !important;
+  }
+}
